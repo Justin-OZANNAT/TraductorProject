@@ -1,0 +1,145 @@
+body{
+	background-color: black;
+	color: white;
+	font-family: Arial;
+}
+
+h1{
+	text-align: center;
+}
+
+.bdd1{
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    right: 0;
+    bottom: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    color: white;
+    text-align: center;
+}
+
+.bdd2{
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    right: 0;
+    bottom: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    color: #111111;
+    text-align: center;
+}
+
+#cpt_ok{
+    text-align: center;
+    border: none;
+    width: 10px;
+    background-color: black;
+    color: white;
+    font-size: 17px;
+}
+
+#cpt{
+    text-align: center;
+    border: none;
+    background-color: black;
+    color: white;
+}
+
+.flex-container1 {
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+}
+
+.flex-container2 {
+    position: absolute;
+    z-index: 2;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 315px;
+}
+
+.btn_div {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+}
+
+.sec_btn-div{
+    text-align: center;
+}
+
+.check_div{
+    color: white;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+}
+.sec_check-div{
+    text-align: center;
+}
+.check_btn{
+    border: none;
+    font-size: 30px;
+    background: dodgerblue;
+    border-radius: 20px;
+}
+
+.bravo{
+    border: none;
+    font-size: 30px;
+    background: dodgerblue;
+    border-radius: 20px;
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-radius: 100px;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: saddlebrown;
+}
+
+#player{
+    display: none;
+}
