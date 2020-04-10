@@ -3,7 +3,7 @@
     <head>
         <?php
             session_start();
-            $id = 1;
+            $id = 22;
             try {
                     // On se connecte à MySQL
                     $bdd = new PDO('mysql:host=mysql-corentin-plee.alwaysdata.net;dbname=corentin-plee_bd2', '202831', 'mabd2020');
@@ -67,7 +67,8 @@
                 while ($donnees = $requete->fetch())
                 {
                     echo $donnees['translated_word'] . "<br>";       //fetching data and echoing them one by one
-                } ?>
+                }
+                    ?>
             </div>
         </div>
         <div class="check_div" >
